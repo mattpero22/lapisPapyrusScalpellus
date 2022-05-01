@@ -1,0 +1,94 @@
+body {
+    color:rgb(0, 0, 0);
+    background-color: rgb(40, 38, 38);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+header{
+    background-color:#e9d899;
+    padding: 10px;
+}
+
+#title {
+    font-size: 48px;
+}
+
+.subtitle {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    background-color:rgb(233, 216, 153);
+
+}
+
+#rules {
+    display: block;
+    float: top;
+    width: 99%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#rules-blurb{
+    background-color:rgb(233, 216, 153);
+}
+
+#rules-diagram {
+    display: inline-block;
+    background-color: rgb(40, 38, 38);
+    width: 75%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#matchups {
+    list-style: none;
+}
+
+#game {
+    display: inline-block;
+    max-width: 500px;
+    width: 99%;
+    margin: 0 auto;
+}
+
+#game-prompt-div {
+    float: top;
+    margin: 0 auto;
+}
+
+.btn {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+#play {
+    background-color: rgb(94, 193, 97);
+}
+
+#lapis {
+    background-color: rgb(94, 114, 193);
+}
+
+#papyrus {
+    background-color: rgb(193, 181, 94);
+}
+
+#scalpellus {
+    background-color: rgb(193, 99, 94);
+}
+
+#submit {
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 1340px) {
+    #rules {
+        float: left;
+    }
+}
